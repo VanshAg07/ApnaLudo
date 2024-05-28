@@ -1,6 +1,5 @@
 #wrapper {
     margin: 0 auto;
-    padding: 0 auto;
     text-align: center; /* Center align the content */
 }
 
@@ -20,4 +19,6 @@ h2 {
     height: 300px;
     width: 300px; /* Set equal height and width */
     margin: 0 10px; /* Space between images */
+    object-fit: cover; /* Ensure images cover the entire area without stretching */
+    border-radius: 10px; /* Optional: add rounded corners to images */
 }

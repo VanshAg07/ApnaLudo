@@ -61,7 +61,7 @@ function MyProfile(){
     <div style={{flexDirection:"row", display:"flex", padding:20}}>
     <div style={{justifyContent:"center", alignContent:"center"}}><GiBattleAxe className="battle-icon"/></div>
     <div style={{flexDirection:"column", display:"flex", marginLeft:10}}>
-    <div>Battle Played </div>
+    <div>Game Played </div>
     
     <div style={{flexDirection:"row", display:"flex"}}>
         <div style={{marginLeft:10}}>0</div>

@@ -29,9 +29,6 @@ class Navbar extends Component {
              <Link to="/MyProfile"> My Profile</Link>
             </li>
             <li>
-              <a href="">Win cash</a>
-            </li>
-            <li>
               <a href="">My wallet</a>
             </li>
             <li>
@@ -55,7 +52,7 @@ class Navbar extends Component {
               <FaRegMoneyBillAlt className="icon-green"/>
               </div>
               <div style={{flexDirection:'column', marginLeft:15, textAlign:"center"}}>
-              <div className='cash-icon'><a href=""></a><span>Cash
+              <div className='cash-icon'><a href=""></a><span>My Wallet
             </span>
             </div>
                 <div><p>₹0</p></div>
