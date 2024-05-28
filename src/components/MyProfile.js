@@ -8,7 +8,8 @@ import { LiaMoneyBillWaveAltSolid } from "react-icons/lia";
 import { GiBattleAxe } from "react-icons/gi";
 import { MdOutlineLogout } from "react-icons/md";
 
-
+import { Link } from 'react-router-dom';
+import HomePage from "./HomePage";
 
 
 function MyProfile(){
@@ -37,7 +38,7 @@ function MyProfile(){
     
     <div style={{flexDirection:"row", display:"flex"}}>
         <div ><LiaMoneyBillWaveAltSolid className="icon-green"/></div>
-        <div style={{marginLeft:10}}>$</div>
+        <div style={{marginLeft:10}}>₹</div>
         <div >0</div>
     </div>
     </div>
@@ -51,7 +52,7 @@ function MyProfile(){
     
     <div style={{flexDirection:"row", display:"flex"}}>
         <div ><LiaMoneyBillWaveAltSolid className="icon-green"/></div>
-        <div style={{marginLeft:10}}>$0</div>
+        <div style={{marginLeft:10}}>₹0</div>
         <div >Reedem</div>
     </div>
     </div>
@@ -75,7 +76,9 @@ function MyProfile(){
     <div style={{flexDirection:"row", display:"flex", padding:20}}>
     <div style={{flexDirection:"column", display:"flex", marginLeft:10}}>
     <div><h2>LOG OUT </h2></div>
-    <div style={{justifyContent:"center", alignContent:"center"}}><MdOutlineLogout className="logout-icon"/></div>
+    <div style={{justifyContent:"center", alignContent:"center"}}>
+    <Link to="/HomePage"><MdOutlineLogout className="logout-icon"/></Link>
+    </div>
     
     
 

@@ -1,9 +1,9 @@
 import React from "react";
 import './Main.css';
-import mainImage from '../images/main-image3.jpeg';
-import mainImage1 from '../images/main-image4.jpeg';
-import mainImage2 from '../images/main-image5.jpeg';
-import mainImage3 from '../images/main-image6.jpeg';
+import mainImage from '../images/1.png';
+import mainImage1 from '../images/3.png';
+import mainImage2 from '../images/4.png';
+import mainImage3 from '../images/2.png';
 
 function Main() {
     return (
