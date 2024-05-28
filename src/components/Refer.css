@@ -1,0 +1,34 @@
+.refer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 20px; */
+  }
+  
+  .refer-img img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .refer-content h2,
+  .refer-content h3,
+  .refer-content p,
+  .refer-content span,
+  .refer-content hr {
+    margin: 10px 0;
+  }
+  
+  .refer-content hr {
+    width: 100vw;
+    border: 1px solid #ccc;
+  }
+
+  .refer-p{
+    font-size: 0.8rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  

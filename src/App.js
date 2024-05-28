@@ -12,6 +12,10 @@ import HomePage from './components/HomePage';
 import MyProfile from './components/MyProfile';
 import Notification from './components/Notification';
 import Refer from './components/Refer';
+import Transaction from './components/Transaction';
+import { Support } from './components/Support';
+import ReferalHistory from './components/ReferalHistory';
+import LoginPage from './components/LoginPage';
 
 function App() {
   return (
@@ -32,8 +36,12 @@ function App() {
       <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/MyProfile" element={<MyProfile />} />
-      <Route path="/Notification" element={<Notification />} />
+      <Route path="/Transaction" element={<Transaction />} />
       <Route path="/Refer" element={<Refer />} />
+      <Route path="/Notification" element={<Notification/>} />
+      <Route path="/Support" element={<Support/>} />
+      <Route path="/ReferalHistory" element={<ReferalHistory/>} />
+      <Route path="/LoginPage" element={<LoginPage/>} />
 
       </Routes>
     </Router>

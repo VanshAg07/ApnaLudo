@@ -3,10 +3,10 @@ nav {
     background-color: black;
     color: white;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 0 20px;
     position: relative;
-    height: 70px; /* Fixed height for navbar */
+    height: 70px; 
 }
 
 .navbar-left {
@@ -85,10 +85,10 @@ nav {
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top: 70px; /* Position the menu exactly below the navbar */
+        top: 70px; 
         left: -300px;
         width: 300px;
-        height: calc(100vh - 70px); /* Adjust height to account for navbar */
+        height: calc(100vh - 70px); 
         background: #2a3239;
         padding: 20px 10px;
         transition: left 0.3s ease-in-out;
@@ -125,3 +125,8 @@ nav {
 .cash-class{
     border: 2px solid white;
     padding: 10px;}
+
+
+    .nav-button {
+        background: none!important;
+    }

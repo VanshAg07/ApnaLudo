@@ -9,7 +9,7 @@ function LoginPage() {
   const [error, setError] = useState('');
 
   const handleMobileNumberChange = (e) => {
-    const value = e.target.value.replace(/\D/g, ''); // Remove non-digit characters
+    const value = e.target.value.replace(/\D/g, ''); 
     if (value.length <= 10) {
       setMobileNumber(value);
       setError('');
@@ -28,7 +28,7 @@ function LoginPage() {
 
   const sendOtp = () => {
     if (mobileNumber && name) {
-      // Simulate sending OTP (Replace with actual OTP sending logic)
+      
       console.log('OTP Sent to:', mobileNumber);
       setIsOtpSent(true);
     } else {
@@ -37,10 +37,10 @@ function LoginPage() {
   };
 
   const verifyOtp = () => {
-    // Simulate OTP verification (Replace with actual OTP verification logic)
+    
     if (otp === '123456') {
       console.log('OTP Verified!');
-      // Proceed with login logic
+     
     } else {
       setError('Invalid OTP. Please try again.');
     }
@@ -88,11 +88,11 @@ function LoginPage() {
           </div>
         )}
         {!isOtpSent ? (
-          <button type="button" onClick={sendOtp}>
+          <button className='Login-button' type="button" onClick={sendOtp}>
             Send OTP
           </button>
         ) : (
-          <button type="button" onClick={verifyOtp}>
+          <button className='Login-button' type="button" onClick={verifyOtp}>
             Verify OTP
           </button>
         )}

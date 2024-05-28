@@ -1,0 +1,36 @@
+.support-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .support-img img {
+    height: 300px; 
+    width: auto;
+    margin-bottom: 20px; 
+  }
+  
+  .support-text {
+    margin: 20px 0;
+  }
+  .support-contact {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; 
+  }
+  
+  .support-contact span {
+    margin-left: 10px; 
+  }
+
+  .icon-red{
+    color: red;
+  }
+
+  .icon-black{
+    color: black;
+  }
+  

@@ -1,4 +1,23 @@
-.noti-img{
-    height: 40px;
-    width:40px;
-}
+.notification-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .noti-img img {
+    width: 150px; 
+    height: auto;
+    margin-bottom: 20px; 
+  }
+  
+  h1 {
+    margin: 10px 0; 
+  }
+  
+  p {
+    margin: 0;
+  }
+  

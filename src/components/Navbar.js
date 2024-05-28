@@ -29,22 +29,19 @@ class Navbar extends Component {
              <Link to="/MyProfile"> My Profile</Link>
             </li>
             <li>
-              <a href="">My wallet</a>
-            </li>
-            <li>
-              <a href="">Transaction History</a>
+            <Link to="/Transaction">Transaction History</Link>
             </li>
             <li>
              <Link to="/Refer">Refer & Earn</Link>
             </li>
             <li>
-              <a href="">Referral History</a>
+            <Link to="/ReferalHistory">Referral History</Link>
             </li>
             <li>
-             <Link to="/Notification"> Notification</Link>
+            <Link to="/Notification"> Notification</Link>
             </li>
             <li>
-              <a href="">Support</a>
+            <Link to="/Support">Support</Link>
             </li>
             <li>
             <div className='cash-class' style={{flexDirection:'row', display:"flex", alignContent:"center", justifyContent:"center",  }}>
@@ -59,6 +56,10 @@ class Navbar extends Component {
                
               </div>
               <div style={{alignContent:"center", marginLeft:20}}>+</div>
+            </div>
+
+            <div >
+             <Link to="/LoginPage"></Link> <button className='nav-button'>Login</button>
             </div>
           
             </li>
