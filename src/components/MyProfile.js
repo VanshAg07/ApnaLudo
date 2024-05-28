@@ -7,13 +7,15 @@ import { FaGift } from "react-icons/fa6";
 import { LiaMoneyBillWaveAltSolid } from "react-icons/lia";
 import { GiBattleAxe } from "react-icons/gi";
 import { MdOutlineLogout } from "react-icons/md";
+import Navbar from "./Navbar";
 
 import { Link } from 'react-router-dom';
 import HomePage from "./HomePage";
 
 
 function MyProfile(){
-    return (
+    return (<>
+     <Navbar/>
 
         <div className="myprofile-container"> 
         <h1>My Profile</h1>
@@ -93,6 +95,7 @@ function MyProfile(){
 
 
 </div>
+</>
     
     );
 

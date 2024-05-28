@@ -1,9 +1,11 @@
 import React from 'react'
 import './ReferalHistory.css'
 import referaHislLogo from '../images/refer-logo2.jpg'
+import Navbar from "./Navbar";
 
 const ReferalHistory = () => {
-  return (
+  return (<>
+<Navbar/>
     <div className="referal-history-container">
       <div className="referal-history-logo">
         <img src={referaHislLogo} alt="Referral History Logo" />
@@ -12,7 +14,9 @@ const ReferalHistory = () => {
         <h2>No Refer Yet!</h2>
       </div>
     </div>
+    </>
   )
+
 }
 
 export default ReferalHistory

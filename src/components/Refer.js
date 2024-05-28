@@ -1,9 +1,11 @@
 import React from 'react';
 import ReferImg from '../images/refer-logo.jpg';
 import './Refer.css';
+import Navbar from "./Navbar";
 
 function Refer() {
-  return (
+  return (<>
+    <Navbar/>
     <div className="refer-container">
       <div className="refer-img">
         <img src={ReferImg} alt="Refer" />
@@ -27,6 +29,7 @@ function Refer() {
         </p>
       </div>
     </div>
+    </>
   );
 }
 

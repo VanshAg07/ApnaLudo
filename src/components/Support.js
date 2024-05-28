@@ -2,11 +2,14 @@ import React from 'react';
 import supportLogo from '../images/support.jpg';
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMailOpen } from "react-icons/io";
+import Navbar from "./Navbar";
 
 import './Support.css';
 
 export const Support = () => {
   return (
+    <>
+    <Navbar />
     <div className="support-container">
       <div className="support-img">
         <img src={supportLogo} alt="Support" />
@@ -23,6 +26,7 @@ export const Support = () => {
         <span>Contact via Mail</span>
       </div>
     </div>
+    </>
   );
 }
 
