@@ -11,12 +11,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import MyProfile from './components/MyProfile';
 import Notification from './components/Notification';
-import ReferAndEarn from './components/ReferAndEarn';
-
-
-
-
-
+import Refer from './components/Refer';
 
 function App() {
   return (
@@ -38,7 +33,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/MyProfile" element={<MyProfile />} />
       <Route path="/Notification" element={<Notification />} />
-      <Route path="/ReferAndEarn" element={<ReferAndEarn />} />
+      <Route path="/Refer" element={<Refer />} />
 
       </Routes>
     </Router>

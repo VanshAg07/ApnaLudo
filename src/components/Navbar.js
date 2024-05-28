@@ -38,7 +38,7 @@ class Navbar extends Component {
               <a href="">Transaction History</a>
             </li>
             <li>
-             <Link to="/ReferAndEarn">Refer & Earn</Link>
+             <Link to="/Refer">Refer & Earn</Link>
             </li>
             <li>
               <a href="">Referral History</a>

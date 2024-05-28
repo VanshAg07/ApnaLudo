@@ -5,6 +5,7 @@ import About from '../components/AboutUs';
 import BusinessAndProduct from '../components/BusinessAndProduct';
 import OurGames from '../components/OurGames';
 import LoginPage from '../components/LoginPage';
+import Footer from './Footer';
 
 
 function HomePage() {
@@ -13,10 +14,7 @@ function HomePage() {
       <div classname='nav'>
          <Navbar/>
         <Main/>
-        <About/>
-       <BusinessAndProduct/>
-       <OurGames/>
-       <LoginPage/>
+      <Footer/>
        
       </div>
     );
