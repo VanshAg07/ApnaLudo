@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import logo from '../images/logo.png';
+import logo from '../images/logo1.png';
 import './Navbar.css';
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom';

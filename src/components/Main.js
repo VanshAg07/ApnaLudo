@@ -1,6 +1,6 @@
 import React from "react";
 import './Main.css';
-import mainImage from '../images/main-image.jpeg';
+import mainImage from '../images/main-image1.jpg';
 
 function Main() {
     return (

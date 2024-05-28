@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    background-color: #1b2430;
+    background-color: black;
     color: white;
     align-items: center;
     justify-content: flex-start;
@@ -19,9 +19,9 @@ nav {
 }
 
 #logo-1 {
-    height: 50px;
+    height: 180px;
     width: auto;
-    margin-left: 10px;
+    margin-left: 1px;
 }
 
 .menu {
