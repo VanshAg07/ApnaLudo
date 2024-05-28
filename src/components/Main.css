@@ -1,0 +1,23 @@
+#wrapper {
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center; /* Center align the content */
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center; /* Center align the images in a row */
+    margin-bottom: 20px; /* Space between the rows */
+}
+
+.main-img {
+    height: 300px;
+    width: 300px; /* Set equal height and width */
+    margin: 0 10px; /* Space between images */
+}

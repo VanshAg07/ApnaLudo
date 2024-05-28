@@ -1,0 +1,83 @@
+.myprofile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+   overflow-x: hidden;
+  }
+  
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .p-name {
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .myprofile-container p {
+    text-align: center;
+  }
+  
+  .p-wallet {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    width: 100%; /* Adjust the width as needed */
+    margin: 20px 0;
+  
+  }
+
+ hr {
+    border: 10px solid rgb(239, 235, 235);
+    border-radius: 5px;
+    width: 100vw;
+}
+
+.profile-body hr{
+    border: 10px solid rgb(239, 235, 235);
+    border-radius: 5px;
+    width: 100vw;
+}
+
+.profile-body{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#profile-body-p{
+    padding-bottom: 30px;
+    left: 20%;
+}
+
+.battle-icon{
+  color: red;
+}
+
+.referal-icon{
+  color: yellow;
+}
+
+  .logout-icon{
+    color: rgb(249, 0, 0);
+  }
+
+
+  
