@@ -58,9 +58,9 @@ class Navbar extends Component {
               <div style={{alignContent:"center", marginLeft:20}}>+</div>
             </div>
 
-            <div >
+            {/* <div >
              <Link to="/LoginPage"></Link> <button className='nav-button'>Login</button>
-            </div>
+            </div> */}
           
             </li>
 
